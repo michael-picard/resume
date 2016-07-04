@@ -1,39 +1,46 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" src="//use.typekit.net/pbs6ugw.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+        try {
+            Typekit.load();
+        } catch (e) {}
+    </script>
     <!--link rel="stylesheet" href="{{ site.github.url }}/css/style.css"-->
-     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css">
-      <link rel="stylesheet" href="{{ site.github.url }}/css/mpstyle.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
-  </head>
-  <body>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/css/mpstyle.css">
+    <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all"-->
+</head>
+
+<body>
     <header>
-      <div class="row">
-        <nav class="right">
-          <ul class="inline-list">
-            <li><a href="/">En</a></li>
-            <li><a href="/fr">Fr</a></li>
-            <!--li><a href="/blog.html">Blog</a></li-->
-          </ul>
-        </nav>
-        <h1><a href="/">Michael Picard</a></h1>
-      </div>
-       <div class="dashwhitebot"></div>
-  </div>
+        <div class="row">
+            <nav class="right">
+                <ul class="inline-list">
+                    <li><a href="/">En</a></li>
+                    <li><a href="/fr">Fr</a></li>
+                    <!--li><a href="/blog.html">Blog</a></li-->
+                </ul>
+            </nav>
+            <h1><a href="/">Michael Picard</a></h1>
+        </div>
+        <div class="dashwhitebot"></div>
+        </div>
     </header>
     <div class="content">
-      {{ content }}
+        {{ content }}
     </div>
     <footer>
-      <div class="dashwhitebot"></div>
-      <div class="row">
-        <p class="">&copy;{{ 'now' | date: "%Y" }} michael-picard.net - propelled by Jekyll - hosted on GitHub through Cloudflare.</p>
-      </div>
+        <div class="dashwhitebot"></div>
+        <div class="row">
+            <p class="">&copy;{{ 'now' | date: "%Y" }} michael-picard.net - propelled by Jekyll - hosted on GitHub through Cloudflare.</p>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
