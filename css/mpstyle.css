@@ -11,6 +11,7 @@ ul.selectlang li a {
 	color: #7DD9C3;
 	font-style: italic;
 }
+a { color: #7DD9C3; }
 .dashwhitebot {
 	height: 5px;
 	border-top: thin dashed #FFFFFF;
