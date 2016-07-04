@@ -5,7 +5,7 @@ header h1 {
 	color: #FFF;
     font-family: "estilo-pro", serif; 
 }
-h2, h3, h4, h5, h6 { font-family: "proxima-nova-soft",sans-serif;}
+h2, h3, h4, h5, h6, p { font-family: "freight-text-pro",serif;}
 header h1 a { color: #FFF; }
 ul.selectlang li a {
 	color: #7DD9C3;
