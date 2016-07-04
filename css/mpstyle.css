@@ -2,7 +2,7 @@
 	height: 5px;
 	border-top: thin dashed #FFFFFF;
 }
-header {
+header, footer {
 	background-color: #2F312F;
 }
 header h1 {
@@ -35,6 +35,14 @@ header blockquote {
 	font-style: italic;
 	font-size: 90%;
 	margin-top: 0;
+	color: #BABABA;
+}
+footer {
+	padding-top: 5px;
+    font-size: 90%;
+}
+footer p {
+	font-style: italic;
 	color: #BABABA;
 }
 body {
@@ -234,18 +242,7 @@ p, li {
 	height: 5px;
 	border-top: thin dashed #FFFFFF;
 }
-footer {
-	text-align: left;
-	background-color: #2F312F;
-	height: 60px;
-	padding-top: 5px;
-}
-footer p {
-	margin-left: 3%;
-	font-size: 90%;
-	font-style: italic;
-	color: #BABABA;
-}
+
 #contains-object {
 	margin-top: 15px;
 }
