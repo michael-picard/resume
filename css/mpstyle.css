@@ -2,3 +2,410 @@
 	height: 5px;
 	border-top: thin dashed #FFFFFF;
 }
+header {
+	background-color: #2F312F;
+}
+header h1 {
+	/*margin-left: 10%;*/
+	color: #FFF;
+	font-family: "estilo-pro", serif;
+	font-weight: 400;
+}
+header h1 a { color: #FFF; }
+/*#select-lang {
+	float: right;
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	margin-right: 2%;
+	color: #7DD9C3;
+}
+#select-lang a {
+	color: #7DD9C3;
+	font-style: italic;
+	text-decoration: none;
+}
+#select-lang a:hover {
+
+	text-decoration:underline;
+}*/
+header blockquote {
+	float: right;
+	font-style: italic;
+	font-size: 90%;
+	margin-top: 0;
+	color: #BABABA;
+}
+body {
+	font-family: serif;
+}
+#main-headline {
+}
+#main-headline p {
+	text-align: center;
+}
+#main-headline h1 {
+	font-family: "ff-tisa-web-pro", serif;
+	text-align: center;
+	color: #2F312F;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.3em;
+	font-family: serif;
+}
+p, li {
+	font-size: 1.2em;
+	font-family: serif;
+}
+#hello2 {
+	border: 1px solid #888;
+	border-radius: 5px;
+	margin-top: 7%;
+}
+#hello2 #hello-text {
+	padding: 0 2%;
+	text-align: justify;
+}
+#hello-text img {
+	float: left;
+	margin-right: 20px;
+	padding-top: 5px;
+}
+#help-you {
+	width: 100%;
+	margin-left: 0;
+}
+#help-you-inner {
+	padding-right: 6%;
+	text-align: justify;
+}
+#help-you-inner>ul>li {
+	margin-bottom: 10px;
+	list-style-type: square;
+	list-style-image: url(images/check_mark-help-you.png);
+}
+#cta1 {
+	clear: both;
+	text-align: center;
+	border-radius: 5px;
+	width: 100%;
+	margin-left: 0;
+	-webkit-box-shadow: 1px 1px 1px 1px #697D73;
+	box-shadow: 1px 1px 1px 1px #697D73;
+}
+#cta1 #cta1-inner {
+	padding: 5% 5%;
+	border-radius: 5px;
+	border: 1px solid #7DD9C3;
+}
+#cta1 h4 {
+	background-color: #365E55; /*#1A5F28;*/
+	padding: 6%;
+	border-radius: inherit;
+	color: white;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+#cta1 a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background-color: #2F312F;
+	padding: 3% 13%;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	font-size: 1.2em;
+	font-weight: 700;
+	-webkit-transition: all .20s ease;
+	-o-transition: all .20s ease;
+	transition: all .20s ease;
+}
+#cta1 a:hover {
+	background-color: white;
+	color: #2F312F;
+	border: 1px solid #2F312F;
+}
+#cta1 .smally {
+	color: #BEBEBE;
+	font-style: italic;
+	font-size: 85%;
+	line-height: 110%;
+}
+#arrow-down {
+	width: 0;
+	height: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-top: 20px solid #365E55;
+}
+#paperasse {
+	background-image: url(images/texture-after-cta.png);
+	background-repeat: repeat;
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+#after-cta {
+	clear: both;
+	width: 100%;
+	margin-left: 0;
+}
+#after-cta, #after-cta2, #after-cta3 {
+	margin-top: 2%;
+	background-color: #FFF;
+}
+#after-cta-inner h3, #after-cta2-inner h3, #after-cta3-inner h3 {
+	color: #2F312F;
+	margin-bottom: 0.3em;
+	text-align: center;
+}
+#after-cta-inner {
+	text-align: justify;
+}
+#after-cta-inner, #after-cta2-inner, #after-cta3-inner {
+	border-radius: 5px;
+	border: 1px solid #E1E1E1;
+	padding-left: 2%;
+	padding-right: 5%;
+}
+#div1 {
+	width: 100%;
+	margin-left: 5.2631%;
+	clear: none;
+}
+.zeroMargin_mobile {
+	margin-left: 0;
+}
+.hide_mobile {
+	display: none;
+}
+#after-cta2 {
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+}
+#after-cta3 {
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+}
+#pillars {
+	background-color: #2F312F;
+	color: #FFF;
+	margin-top: 30px;
+}
+#pillars h1 {
+	text-align: center;
+	font-family: "ff-tisa-web-pro", serif;
+}
+#pillars p:nth-child(4n+5) {
+	text-align: right;
+}
+#pillars h3 {
+	color: #80FFF1;
+	font-size: 1.5em;
+}
+#pillars h3 span {
+	color: #365E55;
+	background-color: #FFFFFF;
+	padding: 8px 16px;
+	border-radius: 50px;
+}
+.rt {
+	margin-left: 2%;
+}
+.lt {
+	margin-right: 2%;
+}
+.hrt {
+	text-align: right;
+}
+#dashwhite {
+	height: 5px;
+	border-bottom: thin dashed #FFFFFF;
+}
+#dashwhitebot {
+	height: 5px;
+	border-top: thin dashed #FFFFFF;
+}
+footer {
+	text-align: left;
+	background-color: #2F312F;
+	height: 60px;
+	padding-top: 5px;
+}
+footer p {
+	margin-left: 3%;
+	font-size: 90%;
+	font-style: italic;
+	color: #BABABA;
+}
+#contains-object {
+	margin-top: 15px;
+}
+#pillars-inner {
+	width: 100%;
+	margin-left: 0;
+}
+aside {
+	text-align: center;
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+#main-headline {
+}
+#after-cta {
+	width: 100%;
+	margin-left: 0;
+}
+#after-cta, #after-cta2, #after-cta3 {
+}
+#after-cta2 {
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+}
+#after-cta3 {
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+}
+#help-you {
+	width: 100%;
+	margin-left: 0;
+}
+#cta1 {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+}
+#div1 {
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+}
+#hello2 {
+}
+.hide_tablet {
+	display: none;
+}
+.zeroMargin_tablet {
+	margin-left: 0;
+}
+#contains-object {
+}
+#pillars-inner {
+	width: 100%;
+	margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.5%;
+	max-width: 900px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+#main-headline {
+}
+#main-headline h2 {
+	font-size: 2em;
+}
+#hello2 {
+	margin-top: 2%;
+}
+#help-you {
+	width: 49.1525%;
+	margin-left: 8.4745%;
+}
+#cta1 #cta1-inner {
+	padding: 1% 10%;
+}
+#after-cta {
+	width: 49.1525%;
+	margin-left: 0;
+}
+#after-cta, #after-cta2 {
+}
+#after-cta3 {
+	margin-top: 1%;
+}
+#after-cta-inner {
+/*border-right: 1px solid #777;*/
+}
+#after-cta2 {
+	width: 49.1525%;
+	margin-left: 1.6949%;
+	clear: none;
+}
+#after-cta3 {
+	width: 49.1525%;
+	margin-left: 1.6949%;
+	clear: none;
+}
+#cta1 {
+	width: 32.2033%;
+	margin-left: 1.6949%;
+	clear: none;
+	margin-top: 20px;
+}
+#hello2 {
+}
+.zeroMargin_desktop {
+	margin-left: 0;
+}
+.hide_desktop {
+	display: none;
+}
+#cta1 a:hover {
+}
+#pillars p {
+	width: 60%;
+}
+#pillars-inner {
+	width: 83.0508%;
+	margin-left: 8.4745%;
+}
+#pillars p:nth-child(4n+5) {
+	margin-left: 40%;
+}
+#contains-object {
+}
+}
+
+@media only screen and (max-width: 641px) {
+#contains-object {
+	display: none;
+}
+}
+@media only screen and (min-width: 680px) {
+header blockquote {
+	margin-top: 35px;
+}
+}
