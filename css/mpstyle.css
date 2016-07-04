@@ -1,42 +1,26 @@
-.dashwhitebot {
-	height: 5px;
-	border-top: thin dashed #FFFFFF;
-}
 header, footer {
 	background-color: #2F312F;
 }
 header h1 {
-	/*margin-left: 10%;*/
 	color: #FFF;
 	font-family: "estilo-pro", serif;
-	font-weight: 400;
 }
 header h1 a { color: #FFF; }
-/*#select-lang {
-	float: right;
-	padding-top: 1%;
-	padding-right: 1%;
-	padding-bottom: 1%;
-	padding-left: 1%;
-	margin-right: 2%;
-	color: #7DD9C3;
-}
-#select-lang a {
+ul.selectlang li a {
 	color: #7DD9C3;
 	font-style: italic;
-	text-decoration: none;
 }
-#select-lang a:hover {
-
-	text-decoration:underline;
-}*/
-header blockquote {
+.dashwhitebot {
+	height: 5px;
+	border-top: thin dashed #FFFFFF;
+}
+/*header blockquote {
 	float: right;
 	font-style: italic;
 	font-size: 90%;
 	margin-top: 0;
 	color: #BABABA;
-}
+}*/
 footer {
 	padding-top: 5px;
     font-size: 90%;
@@ -45,7 +29,7 @@ footer p {
 	font-style: italic;
 	color: #BABABA;
 }
-body {
+/*body {
 	font-family: serif;
 }
 #main-headline {
@@ -111,7 +95,7 @@ p, li {
 	border: 1px solid #7DD9C3;
 }
 #cta1 h4 {
-	background-color: #365E55; /*#1A5F28;*/
+	background-color: #365E55;
 	padding: 6%;
 	border-radius: inherit;
 	color: white;
@@ -255,7 +239,6 @@ aside {
 }
 
 
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
 .gridContainer {
@@ -315,7 +298,7 @@ aside {
 }
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
@@ -354,7 +337,7 @@ aside {
 	margin-top: 1%;
 }
 #after-cta-inner {
-/*border-right: 1px solid #777;*/
+border-right: 1px solid #777;
 }
 #after-cta2 {
 	width: 49.1525%;
@@ -405,4 +388,4 @@ aside {
 header blockquote {
 	margin-top: 35px;
 }
-}
+}*/
