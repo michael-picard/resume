@@ -1,6 +1,7 @@
 header, footer {
 	background-color: #2F312F;
 }
+header {margin-bottom: 20px;}
 header h1 {
 	color: #FFF;
     font-family: "estilo-pro", serif; 
@@ -31,7 +32,9 @@ footer {
 footer p {
 	font-style: italic;
 	color: #BABABA;
+    padding: 10px 0;
 }
+img#headpic { margin: 0 20px 20px 0;}
 /*body {
 	font-family: serif;
 }
