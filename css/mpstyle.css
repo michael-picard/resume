@@ -1,13 +1,13 @@
 header, footer {
 	background-color: #2F312F;
 }
-header {margin-bottom: 20px;}
+header {margin-bottom: 20px;padding-top: 20px;}
 header h1 {
 	color: #FFF;
     font-family: "estilo-pro", serif; 
 }
 h2, h3, h4, h5, h6, p, ul, ol, li { font-family: "freight-text-pro",serif;}
-header h1 a { color: #FFF; }
+header h1 a, header h1 a:hover { color: #FFF; }
 ul.selectlang li a {
 	color: #7DD9C3;
 	font-style: italic;
@@ -25,6 +25,7 @@ a { color: #7DD9C3; }
 	margin-top: 0;
 	color: #BABABA;
 }*/
+ul.contacticon {  margin-top: -20px;}
 footer {
 	padding-top: 5px;
     font-size: 90%;
