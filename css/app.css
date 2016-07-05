@@ -148,7 +148,7 @@ button { -webkit-appearance: none; -moz-appearance: none; background: transparen
 
 .is-hidden { display: none !important; }
 
-.row { max-width: 68.1818181818rem; margin-left: auto; margin-right: auto; }
+.row { max-width: 56.8181818182rem; margin-left: auto; margin-right: auto; }
 
 .row::before, .row::after { content: ' '; display: table; }
 
@@ -551,7 +551,7 @@ a:hover, a:focus { color: #58ceb2; }
 
 a img { border: 0; }
 
-hr { max-width: 68.1818181818rem; height: 0; border-right: 0; border-top: 0; border-bottom: 1px solid #cacaca; border-left: 0; margin: 1.1363636364rem auto; clear: both; }
+hr { max-width: 56.8181818182rem; height: 0; border-right: 0; border-top: 0; border-bottom: 1px solid #cacaca; border-left: 0; margin: 1.1363636364rem auto; clear: both; }
 
 ul, ol, dl { line-height: 1.6; margin-bottom: 1rem; list-style-position: outside; }
 
@@ -706,7 +706,7 @@ p + .stat { margin-top: -1rem; }
 
 [data-whatinput='mouse'] .menu > li { outline: 0; }
 
-.menu > li > a { display: block; padding: 0.7rem 1rem; line-height: 1; }
+.menu > li > a { display: block; padding: 0.7rem 0.5rem; line-height: 1; }
 
 .menu input, .menu a, .menu button { margin-bottom: 0; }
 
@@ -726,7 +726,7 @@ p + .stat { margin-top: -1rem; }
 @media screen and (min-width: 64em) { .menu.large-horizontal > li { display: table-cell; }
   .menu.large-vertical > li { display: block; } }
 
-.menu.simple li { line-height: 1; display: inline-block; margin-right: 1rem; }
+.menu.simple li { line-height: 1; display: inline-block; margin-right: 0.5rem; }
 
 .menu.simple a { padding: 0; }
 
@@ -748,7 +748,7 @@ p + .stat { margin-top: -1rem; }
 
 .menu .active > a { color: #fefefe; background: #7DD9C3; }
 
-.menu-text { font-weight: bold; color: inherit; line-height: 1; padding-top: 0; padding-bottom: 0; padding: 0.7rem 1rem; }
+.menu-text { font-weight: bold; color: inherit; line-height: 1; padding-top: 0; padding-bottom: 0; padding: 0.7rem 0.5rem; }
 
 .menu-centered { text-align: center; }
 
