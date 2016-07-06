@@ -514,7 +514,7 @@ button { -webkit-appearance: none; -moz-appearance: none; background: transparen
 
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; }
 
-p { font-size: inherit; line-height: 1.5; margin-bottom: 1rem; text-rendering: optimizeLegibility; }
+p { font-size: inherit; line-height: 1.6; margin-bottom: 1rem; text-rendering: optimizeLegibility; }
 
 em, i { font-style: italic; line-height: inherit; }
 
@@ -553,7 +553,7 @@ a img { border: 0; }
 
 hr { max-width: 66.3716814159rem; height: 0; border-right: 0; border-top: 0; border-bottom: 1px solid #cacaca; border-left: 0; margin: 1.1061946903rem auto; clear: both; }
 
-ul, ol, dl { line-height: 1.5; margin-bottom: 1rem; list-style-position: outside; }
+ul, ol, dl { line-height: 1.6; margin-bottom: 1rem; list-style-position: outside; }
 
 li { font-size: inherit; }
 
@@ -569,7 +569,7 @@ dl dt { margin-bottom: 0.3rem; font-weight: bold; }
 
 blockquote { margin: 0 0 1rem; padding: 0.4977876106rem 1.1061946903rem 0 1.0508849558rem; border-left: 1px solid #cacaca; }
 
-blockquote, blockquote p { line-height: 1.5; color: #8a8a8a; }
+blockquote, blockquote p { line-height: 1.6; color: #8a8a8a; }
 
 cite { display: block; font-size: 0.7190265487rem; color: #8a8a8a; }
 
