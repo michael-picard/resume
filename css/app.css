@@ -148,7 +148,7 @@ button { -webkit-appearance: none; -moz-appearance: none; background: transparen
 
 .is-hidden { display: none !important; }
 
-.row { max-width: 55.3097345133rem; margin-left: auto; margin-right: auto; }
+.row { max-width: 66.3716814159rem; margin-left: auto; margin-right: auto; }
 
 .row::before, .row::after { content: ' '; display: table; }
 
@@ -551,7 +551,7 @@ a:hover, a:focus { color: #58ceb2; }
 
 a img { border: 0; }
 
-hr { max-width: 55.3097345133rem; height: 0; border-right: 0; border-top: 0; border-bottom: 1px solid #cacaca; border-left: 0; margin: 1.1061946903rem auto; clear: both; }
+hr { max-width: 66.3716814159rem; height: 0; border-right: 0; border-top: 0; border-bottom: 1px solid #cacaca; border-left: 0; margin: 1.1061946903rem auto; clear: both; }
 
 ul, ol, dl { line-height: 1.6; margin-bottom: 1rem; list-style-position: outside; }
 
