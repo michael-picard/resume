@@ -836,86 +836,9 @@ select[multiple] { height: auto; background-image: none; }
 
 .no-js [data-responsive-menu] ul { display: none; }
 
-table { width: 100%; margin-bottom: 1rem; border-radius: 0; }
-
-table thead, table tbody, table tfoot { border: 1px solid #f1f1f1; background-color: #fefefe; }
-
-table caption { font-weight: bold; padding: 0.4424778761rem 0.5530973451rem 0.5530973451rem; }
-
-table thead, table tfoot { background: #f8f8f8; color: #0a0a0a; }
-
-table thead tr, table tfoot tr { background: transparent; }
-
-table thead th, table thead td, table tfoot th, table tfoot td { padding: 0.4424778761rem 0.5530973451rem 0.5530973451rem; font-weight: bold; text-align: left; }
-
-table tbody tr:nth-child(even) { background-color: #f1f1f1; }
-
-table tbody th, table tbody td { padding: 0.4424778761rem 0.5530973451rem 0.5530973451rem; }
-
-@media screen and (max-width: 63.9375em) { table.stack thead { display: none; }
-  table.stack tfoot { display: none; }
-  table.stack tr, table.stack th, table.stack td { display: block; }
-  table.stack td { border-top: 0; } }
-
-table.scroll { display: block; width: 100%; overflow-x: auto; }
-
-table.hover tr:hover { background-color: #f9f9f9; }
-
-table.hover tr:nth-of-type(even):hover { background-color: #ececec; }
-
-.table-scroll { overflow-x: auto; }
-
-.table-scroll table { width: auto; }
-
-.tabs { margin: 0; list-style-type: none; background: #fefefe; border: 1px solid #e6e6e6; }
-
-.tabs::before, .tabs::after { content: ' '; display: table; }
-
-.tabs::after { clear: both; }
-
-.tabs.vertical > li { width: auto; float: none; display: block; }
-
-.tabs.simple > li > a { padding: 0; }
-
-.tabs.simple > li > a:hover { background: transparent; }
-
-.tabs.primary { background: #7DD9C3; }
-
-.tabs.primary > li > a { color: #0a0a0a; }
-
-.tabs.primary > li > a:hover, .tabs.primary > li > a:focus { background: #70d5bd; }
-
-.tabs-title { float: left; }
-
-.tabs-title > a { display: block; padding: 1.25rem 1.5rem; line-height: 1; font-size: 0.6637168142rem; }
-
-.tabs-title > a:hover { background: #fefefe; }
-
-.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] { background: #e6e6e6; }
-
-.tabs-content { background: #fefefe; transition: all 0.5s ease; border: 1px solid #e6e6e6; border-top: 0; }
-
-.tabs-content.vertical { border: 1px solid #e6e6e6; border-left: 0; }
-
-.tabs-panel { display: none; padding: 1rem; }
-
-.tabs-panel.is-active { display: block; }
-
 .thumbnail { border: solid 4px #fefefe; box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2); display: inline-block; line-height: 0; max-width: 100%; transition: box-shadow 200ms ease-out; border-radius: 0; margin-bottom: 1rem; }
 
 .thumbnail:hover, .thumbnail:focus { box-shadow: 0 0 6px 1px rgba(125, 217, 195, 0.5); }
-
-.has-tip { border-bottom: dotted 1px #8a8a8a; font-weight: bold; position: relative; display: inline-block; cursor: help; }
-
-.tooltip { background-color: #0a0a0a; color: #fefefe; font-size: 80%; padding: 0.75rem; position: absolute; z-index: 10; top: calc(100% + 0.6495rem); max-width: 10rem !important; border-radius: 0; }
-
-.tooltip::before { content: ''; display: block; width: 0; height: 0; border: inset 0.75rem; border-color: transparent transparent #0a0a0a; border-bottom-style: solid; border-top-width: 0; bottom: 100%; position: absolute; left: 50%; transform: translateX(-50%); }
-
-.tooltip.top::before { content: ''; display: block; width: 0; height: 0; border: inset 0.75rem; border-color: #0a0a0a transparent transparent; border-top-style: solid; border-bottom-width: 0; top: 100%; bottom: auto; }
-
-.tooltip.left::before { content: ''; display: block; width: 0; height: 0; border: inset 0.75rem; border-color: transparent transparent transparent #0a0a0a; border-left-style: solid; border-right-width: 0; bottom: auto; left: 100%; top: 50%; transform: translateY(-50%); }
-
-.tooltip.right::before { content: ''; display: block; width: 0; height: 0; border: inset 0.75rem; border-color: transparent #0a0a0a transparent transparent; border-right-style: solid; border-left-width: 0; bottom: auto; left: auto; right: 100%; top: 50%; transform: translateY(-50%); }
 
 .hide { display: none !important; }
 
