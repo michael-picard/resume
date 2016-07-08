@@ -6,7 +6,8 @@ header h1 {
 	color: #FFF;
     font-family: "estilo-pro", serif; 
 }
-h2, h3, h4, h5, h6, p, ul, ol, li { font-family: "freight-text-pro",serif;}
+/*h2, h3, h4, h5, h6, p, ul, ol, li { font-family: "freight-text-pro",serif;}*/
+.resume h3 {font-style: italic;}
 header h1 a, header h1 a:hover { color: #FFF; }
 ul.selectlang li a {
 	color: #7DD9C3;
