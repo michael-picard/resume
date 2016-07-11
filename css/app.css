@@ -1063,7 +1063,7 @@ select[multiple] { height: auto; background-image: none; }
 
 .orbit-bullets button.is-active { background-color: #8a8a8a; }
 
-.tabs { margin: 0; list-style-type: none; background: #fefefe; border: 1px solid #fefefe; }
+.tabs { margin: 0; list-style-type: none; background: #fefefe; border: 1px solid #e6e6e6; }
 
 .tabs::before, .tabs::after { content: ' '; display: table; }
 
@@ -1087,11 +1087,11 @@ select[multiple] { height: auto; background-image: none; }
 
 .tabs-title > a:hover { background: #fefefe; }
 
-.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] { background: #e6e6e6; }
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] { background: #3B3E3B; }
 
-.tabs-content { background: #fefefe; transition: all 0.5s ease; border: 1px solid #fefefe; border-top: 0; }
+.tabs-content { background: #fefefe; transition: all 0.5s ease; border: 1px solid #e6e6e6; border-top: 0; }
 
-.tabs-content.vertical { border: 1px solid #fefefe; border-left: 0; }
+.tabs-content.vertical { border: 1px solid #e6e6e6; border-left: 0; }
 
 .tabs-panel { display: none; padding: 1rem; }
 

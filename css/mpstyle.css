@@ -26,6 +26,12 @@ ul.selectlang li a {
 	color: #BABABA;
 }*/
 ul.contacticon {  margin-top: -20px;}
+ul.tabs { border-top: none; border-right: none; border-left:none;}
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {color:#FFF;}
+.tabs-title { border-top: 1px solid lightgrey;}
+.tabs-title:first-child {border-left: 1px solid lightgrey;}
+.tabs-title:last-child {border-right: 1px solid lightgrey;}
+.tabs-title > a {color: #0a0a0a;}
 /*.portfolio {background-color: lightgrey; padding: 1.1061946903rem 0;background-image: url(/images/black10.jpg);background-size: cover;}*/
 .spacer {margin-bottom: 3rem;}
 footer {
