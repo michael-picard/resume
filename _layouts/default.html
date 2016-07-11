@@ -49,6 +49,8 @@
     <script type="text/javascript" src="{{ site.github.url }}/foundation/bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
      <script type="text/javascript" src="{{ site.github.url }}/foundation/bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script-->
     <script type="text/javascript">
+        // Defer images       src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-
+ var imgDefer = document.getElementsByTagName('img'); for (var i=0; i<imgDefer.length; i++) { if(imgDefer[i].getAttribute('data-src')) { imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src')); } }
         // load foundation
      $(document).foundation();
     </script>
@@ -68,8 +70,6 @@
     }
   });
 });
-// Defer images       src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-
- var imgDefer = document.getElementsByTagName('img'); for (var i=0; i<imgDefer.length; i++) { if(imgDefer[i].getAttribute('data-src')) { imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src')); } }
     </script-->
 </body>
 
