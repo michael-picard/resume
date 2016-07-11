@@ -1063,6 +1063,40 @@ select[multiple] { height: auto; background-image: none; }
 
 .orbit-bullets button.is-active { background-color: #8a8a8a; }
 
+.tabs { margin: 0; list-style-type: none; background: #fefefe; border: 1px solid #e6e6e6; }
+
+.tabs::before, .tabs::after { content: ' '; display: table; }
+
+.tabs::after { clear: both; }
+
+.tabs.vertical > li { width: auto; float: none; display: block; }
+
+.tabs.simple > li > a { padding: 0; }
+
+.tabs.simple > li > a:hover { background: transparent; }
+
+.tabs.primary { background: #00ca99; }
+
+.tabs.primary > li > a { color: #fefefe; }
+
+.tabs.primary > li > a:hover, .tabs.primary > li > a:focus { background: #00d9a5; }
+
+.tabs-title { float: left; }
+
+.tabs-title > a { display: block; padding: 1.25rem 1.5rem; line-height: 1; font-size: 0.6637168142rem; }
+
+.tabs-title > a:hover { background: #fefefe; }
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] { background: #e6e6e6; }
+
+.tabs-content { background: #fefefe; transition: all 0.5s ease; border: 1px solid #e6e6e6; border-top: 0; }
+
+.tabs-content.vertical { border: 1px solid #e6e6e6; border-left: 0; }
+
+.tabs-panel { display: none; padding: 1rem; }
+
+.tabs-panel.is-active { display: block; }
+
 .thumbnail { border: solid 4px #fefefe; box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2); display: inline-block; line-height: 0; max-width: 100%; transition: box-shadow 200ms ease-out; border-radius: 0; margin-bottom: 1rem; }
 
 .thumbnail:hover, .thumbnail:focus { box-shadow: 0 0 6px 1px rgba(0, 202, 153, 0.5); }
