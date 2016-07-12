@@ -28,7 +28,7 @@ ul.selectlang li a {
 ul.contacticon {  margin-top: -20px;}
 ul.tabs { border-top: none; border-right: none; border-left:none;}
 .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {color:#FFF;}
-.tabs-title { border-top: 1px solid lightgrey;}
+.tabs-title { border-top: 1px solid lightgrey; background-color: whitesmoke;}
 .tabs-title:first-child {border-left: 1px solid lightgrey;}
 .tabs-title:last-child {border-right: 1px solid lightgrey;}
 .tabs-title > a {color: #0a0a0a;}
