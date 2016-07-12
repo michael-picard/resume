@@ -13,21 +13,23 @@
     </script>
     <link rel="stylesheet" href="{{ site.github.url }}/css/app.css">
     <link rel="stylesheet" href="{{ site.github.url }}/css/font-awesome.css">
-    <link rel="icon" type="image/ico" href="images/m-p-favicon.png"/>
+    <link rel="icon" type="image/ico" href="{{ site.github.url }}/images/m-p-favicon.png" />
     <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all"-->
 </head>
 
 <body>
     <header>
         <div class="row">
-            <nav class="float-right">
+            <!--nav class="float-right">
                 <ul class="menu selectlang">
                     <li><a href="/">En</a></li>
                     <li><a href="/fr">Fr</a></li>
-                    <!--li><a href="/blog.html">Blog</a></li-->
+                    <li><a href="/blog.html">Blog</a></li>
                 </ul>
-            </nav>
-            <h1><a href="/">Michael Picard</a></h1>
+            </nav-->
+            <div class="columns">
+                <h1><a href="/">Michael Picard</a></h1>
+            </div>
         </div>
         <div class="dashwhitebot"></div>
         </div>
@@ -42,34 +44,38 @@
         </div>
     </footer>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
-      <!--script type="text/javascript" src="{{ site.github.url }}/foundation/bower_components/foundation-sites/js/foundation.core.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
+    <!--script type="text/javascript" src="{{ site.github.url }}/foundation/bower_components/foundation-sites/js/foundation.core.js"></script>
     <script type="text/javascript" src="{{ site.github.url }}/foundation/bower_components/foundation-sites/js/foundation.tabs.js"></script>
     <script type="text/javascript" src="{{ site.github.url }}/foundation/bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
      <script type="text/javascript" src="{{ site.github.url }}/foundation/bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script-->
     <script type="text/javascript">
         // Defer images       src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-
- var imgDefer = document.getElementsByTagName('img'); for (var i=0; i<imgDefer.length; i++) { if(imgDefer[i].getAttribute('data-src')) { imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src')); } }
+        var imgDefer = document.getElementsByTagName('img');
+        for (var i = 0; i < imgDefer.length; i++) {
+            if (imgDefer[i].getAttribute('data-src')) {
+                imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+            }
+        }
         // load foundation
-     $(document).foundation();
+        $(document).foundation();
     </script>
-        <script type="text/javascript">
+    <script type="text/javascript">
         // smooth scroll
-         $(function() {
-  //$('a[href*="#"]:not([href="#"])').click(function() {     //defaut conflicting with foundation js tabs
-       $('a[href*="#backstory"], a[href*="#contact"]').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+        $(function () {  //$('a[href*="#"]:not([href="#"])').click(function() {     //defaut conflicting with foundation js tabs
+            $('a[href*="#backstory"], a[href*="#contact"]').click(function () {   
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {     
+                    var target = $(this.hash);     
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');     
+                    if (target.length) {       
+                        $('html, body').animate({         
+                            scrollTop: target.offset().top       
+                        }, 1000);       
+                        return false;     
+                    }   
+                } 
+            });
+        });
     </script>
 </body>
 
