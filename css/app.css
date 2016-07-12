@@ -192,6 +192,59 @@
 
 .long-delay { animation-delay: 700ms !important; }
 
+header, footer { background-color: #2F312F; }
+
+header { margin-bottom: 20px; padding-top: 20px; }
+
+header h1 { color: #FFF; font-family: "estilo-pro", serif; }
+
+/*h2, h3, h4, h5, h6, p, ul, ol, li { font-family: "freight-text-pro",serif;}*/
+.resume h3 { font-style: italic; }
+
+header h1 a, header h1 a:hover { color: #fefefe; }
+
+ul.selectlang li a { color: #7DD9C3; font-style: italic; }
+
+.dashwhitebot { height: 5px; border-top: thin dashed #FFFFFF; }
+
+img#headpic { margin: 0 20px 0 0; }
+
+.dashblackbot { padding: 1rem; border: 1px dashed lightgrey; }
+
+ul.contacticon { margin-top: -20px; }
+
+ul.tabs { border-top: none; border-right: none; border-left: none; }
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] { color: #FFF; }
+
+.tabs-title { border-top: 1px solid #e6e6e6; background-color: whitesmoke; }
+
+.tabs-title:first-child { border-left: 1px solid #e6e6e6; }
+
+.tabs-title:last-child { border-right: 1px solid #e6e6e6; }
+
+.tabs-title > a { color: #0a0a0a; }
+
+/*Utilities*/
+.spacer { margin-bottom: 3rem; }
+
+.white { color: #fefefe; }
+
+.padding20 { padding: .4rem; }
+
+/*paper shadow effect*/
+.helplist { position: relative; background-color: whitesmoke; }
+
+.helplist:before { left: 12px; -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg); -ms-transform: rotate(-2deg); -o-transform: rotate(-2deg); transform: rotate(-2deg); }
+
+.helplist:before, .helplist:after { content: ''; position: absolute; z-index: -1; bottom: 12px; width: 48%; height: 12px; -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); }
+
+.helplist:after { right: 12px; -webkit-transform: rotate(2deg); -moz-transform: rotate(2deg); -ms-transform: rotate(2deg); -o-transform: rotate(2deg); transform: rotate(2deg); }
+
+footer { padding-top: 5px; font-size: 90%; }
+
+footer p { font-style: italic; color: #e6e6e6; padding: 10px 0; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
