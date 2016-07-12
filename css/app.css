@@ -196,7 +196,7 @@ header, footer { background-color: #2F312F; }
 
 header { margin-bottom: 20px; padding-top: 20px; }
 
-header h1 { color: #FFF; font-family: "estilo-pro", serif; }
+header h1 { color: #fefefe; font-family: "estilo-pro", serif; }
 
 /*h2, h3, h4, h5, h6, p, ul, ol, li { font-family: "freight-text-pro",serif;}*/
 .resume h3 { font-style: italic; }
@@ -205,17 +205,17 @@ header h1 a, header h1 a:hover { color: #fefefe; }
 
 ul.selectlang li a { color: #7DD9C3; font-style: italic; }
 
-.dashwhitebot { height: 5px; border-top: thin dashed #FFFFFF; }
+.dashwhitebot { height: 5px; border-top: thin dashed #fefefe; }
 
 img#headpic { margin: 0 20px 0 0; }
 
-.dashblackbot { padding: 1rem; border: 1px dashed lightgrey; }
+.dashblackbot { padding: 1rem; border: 1px dashed #cacaca; }
 
 ul.contacticon { margin-top: -20px; }
 
 ul.tabs { border-top: none; border-right: none; border-left: none; }
 
-.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] { color: #FFF; }
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] { color: #fefefe; }
 
 .tabs-title { border-top: 1px solid #e6e6e6; background-color: whitesmoke; }
 
