@@ -16,3 +16,4 @@ foundation/scss/
 /foundation/js/min/app-min.js.map
 /foundation/package.json
 /foundation/README.md
+/node_modules
