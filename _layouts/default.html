@@ -2,81 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script type="text/javascript" src="//use.typekit.net/pbs6ugw.js"></script>
-    <script type="text/javascript">
-        try {
-            Typekit.load();
-        } catch (e) {}
-    </script>
-    <link rel="stylesheet" href="{{ site.github.url }}/css/app.css">
-    <link rel="stylesheet" href="{{ site.github.url }}/css/font-awesome.css">
-    <link rel="icon" type="image/ico" href="{{ site.github.url }}/images/m-p-favicon.png" />
-    <meta name="keywords" content="Ecommerce Manager, Michael Picard">
-    <meta name="description" content="Welcome to my personal website where you can access my resume, learn about my skills and experiences, and use the contact form to get in touch with me.">
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<script type="text/javascript" src="//use.typekit.net/pbs6ugw.js"></script>
+	<script type="text/javascript">
+		try {
+			Typekit.load();
+		} catch (e) {
+		}
+	</script>
+	<link rel="stylesheet" href="{{ site.github.url }}/css/app.css">
+	<link rel="stylesheet" href="{{ site.github.url }}/css/font-awesome.css">
+	<link rel="icon" type="image/ico" href="{{ site.github.url }}/images/m-p-favicon.png"/>
+	<meta name="keywords" content="Ecommerce Manager, Michael Picard">
+	<meta name="description"
+	      content="Welcome to my personal website where you can access my resume, learn about my skills and experiences, and use the contact form to get in touch with me.">
+	<script type="application/ld+json">
+		{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Michael Picard",
+  "Gender": "Male",
+  "jobTitle": "Ecommerce Developer",
+  "url": "http://michael-picard.net",
+  "birthDate": "December 5th 1980",
+  "nationality": "France",
+  "workLocation": "Dordgone",
+  "owns": "Metasurfers Limited"
+}
+	</script>
 </head>
 
 <body>
-    <header>
-        <div class="row">
-            <!--nav class="float-right">
-                <ul class="menu selectlang">
-                    <li><a href="/">En</a></li>
-                    <li><a href="/fr">Fr</a></li>
-                    <li><a href="/blog.html">Blog</a></li>
-                </ul>
-            </nav-->
-            <div class="columns">
-                <h1><a href="/">Michael Picard</a></h1>
-            </div>
-        </div>
-        <div class="dashwhitebot"></div>
-        </div>
-    </header>
-    <div class="">
-        {{ content }}
-    </div>
-    <footer>
-        <div class="dashwhitebot"></div>
-        <div class="row">
-            <div class="columns">
-                <p class="text-right">&copy;{{ 'now' | date: "%Y" }} michael-picard.net - propelled by Jekyll - hosted on GitHub pages through Cloudflare.</p>
-            </div>
-        </div>
-    </footer>
-    <script type="text/javascript">
-        // Defer images       src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-
-        var imgDefer = document.getElementsByTagName('img');
-        for (var i = 0; i < imgDefer.length; i++) {
-            if (imgDefer[i].getAttribute('data-src')) {
-                imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
-            }
-        }
-    </script>
-    <script type="text/javascript" src="{{ site.github.url }}/foundation/js/min/app-min.js"></script>
-    <script type="text/javascript">
-        // smooth scroll
-        $(function () {  //$('a[href*="#"]:not([href="#"])').click(function() {     //defaut conflicting with foundation js tabs
-            $('a[href*="#backstory"], a[href*="#contact"]').click(function () {   
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {     
-                    var target = $(this.hash);     
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');     
-                    if (target.length) {       
-                        $('html, body').animate({         
-                            scrollTop: target.offset().top       
-                        }, 1000);       
-                        return false;     
-                    }   
-                } 
-            });
-        });
-    </script>
-    <!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.js"></script-->
-    <!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script-->
-    <!--script>$(document).foundation('tab', 'reflow');</script-->
+<header>
+	<div class="row">
+		<!--nav class="float-right">
+			<ul class="menu selectlang">
+				<li><a href="/">En</a></li>
+				<li><a href="/fr">Fr</a></li>
+				<li><a href="/blog.html">Blog</a></li>
+			</ul>
+		</nav-->
+		<div class="columns">
+			<h1><a href="/">Michael Picard</a></h1>
+		</div>
+	</div>
+	<div class="dashwhitebot"></div>
+	</div>
+</header>
+<div class="">
+	{{ content }}
+</div>
+<footer>
+	<div class="dashwhitebot"></div>
+	<div class="row">
+		<div class="columns">
+			<p class="text-right">&copy;{{ 'now' | date: "%Y" }} michael-picard.net - propelled by Jekyll - hosted on
+				GitHub pages through Cloudflare.</p>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+	// Defer images       src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-
+	var imgDefer = document.getElementsByTagName('img');
+	for (var i = 0; i < imgDefer.length; i++) {
+		if (imgDefer[i].getAttribute('data-src')) {
+			imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+		}
+	}
+</script>
+<script type="text/javascript" src="{{ site.github.url }}/foundation/js/min/app-min.js"></script>
+<script type="text/javascript">
+	// smooth scroll
+	$(function () {  //$('a[href*="#"]:not([href="#"])').click(function() {     //defaut conflicting with foundation js tabs
+		$('a[href*="#backstory"], a[href*="#contact"]').click(function () {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html, body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+</script>
+<!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.js"></script-->
+<!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script-->
+<!--script>$(document).foundation('tab', 'reflow');</script-->
 </body>
 
 </html>
